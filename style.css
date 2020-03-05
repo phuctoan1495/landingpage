@@ -1,0 +1,20 @@
+body, html { 
+	height: 100%;
+	width: 100%;
+	font-family: 'Caladea', Times new roman;
+	/*Justify a stretched background with the center is always the center*/
+	background: url(bk.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.buffer{
+	height: 10rem;
+}
+
+.btn {
+	padding: 10px;
+	border-radius: 300px;
+}
